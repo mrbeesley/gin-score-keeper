@@ -3,9 +3,10 @@ package models
 import "fmt"
 
 type Game struct {
-	Round   int
-	Wilds   map[int]string
-	Players []Player
+	Round    int
+	Wilds    map[int]string
+	Players  []Player
+	GameOver bool
 }
 
 func (gm *Game) BuildScoreCard() string {
@@ -26,11 +27,36 @@ func (gm *Game) BuildScoreCard() string {
 	return fmt.Sprint(people, "\n", scores)
 }
 
+func (gm *Game) GetWinner() string {
+	winner := ""
+	lowScore := 0
+	first := true
+	for _, p := range gm.Players {
+		if first {
+			first = false
+			lowScore = p.Score
+			winner = p.Name
+		} else if p.Score < lowScore {
+			lowScore = p.Score
+			winner = p.Name
+		}
+	}
+	return winner
+}
+
+func (gm *Game) CloseRound() {
+	gm.Round++
+	if gm.Round == 14 {
+		gm.GameOver = true
+	}
+}
+
 func NewGame() *Game {
 	return &Game{
-		Round:   0,
-		Wilds:   GetWildsMap(),
-		Players: []Player{},
+		Round:    1,
+		Wilds:    GetWildsMap(),
+		Players:  []Player{},
+		GameOver: false,
 	}
 }
 

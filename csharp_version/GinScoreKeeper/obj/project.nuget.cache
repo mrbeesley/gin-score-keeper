@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kSaF2JpGIUZdcHMpqpIlJkWf2hDaSMZU5azxcSbqXl+ltngab0k1MTFWxTynKWooBYkQTCzlLu0KVRlOmtd/6g==",
+  "success": true,
+  "projectFilePath": "/Users/mbeesley/code/gin-score-keeper/csharp_version/GinScoreKeeper/GinScoreKeeper.csproj",
+  "expectedPackageFiles": [
+    "/Users/mbeesley/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

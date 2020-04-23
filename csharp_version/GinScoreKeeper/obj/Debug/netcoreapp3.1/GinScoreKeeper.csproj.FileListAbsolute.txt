@@ -1,0 +1,14 @@
+/Users/mbeesley/code/gin-score-keeper/csharp_version/GinScoreKeeper/obj/Debug/netcoreapp3.1/GinScoreKeeper.csprojAssemblyReference.cache
+/Users/mbeesley/code/gin-score-keeper/csharp_version/GinScoreKeeper/obj/Debug/netcoreapp3.1/GinScoreKeeper.csproj.CoreCompileInputs.cache
+/Users/mbeesley/code/gin-score-keeper/csharp_version/GinScoreKeeper/obj/Debug/netcoreapp3.1/GinScoreKeeper.AssemblyInfoInputs.cache
+/Users/mbeesley/code/gin-score-keeper/csharp_version/GinScoreKeeper/obj/Debug/netcoreapp3.1/GinScoreKeeper.AssemblyInfo.cs
+/Users/mbeesley/code/gin-score-keeper/csharp_version/GinScoreKeeper/bin/Debug/netcoreapp3.1/GinScoreKeeper.deps.json
+/Users/mbeesley/code/gin-score-keeper/csharp_version/GinScoreKeeper/bin/Debug/netcoreapp3.1/GinScoreKeeper.runtimeconfig.json
+/Users/mbeesley/code/gin-score-keeper/csharp_version/GinScoreKeeper/bin/Debug/netcoreapp3.1/GinScoreKeeper.runtimeconfig.dev.json
+/Users/mbeesley/code/gin-score-keeper/csharp_version/GinScoreKeeper/bin/Debug/netcoreapp3.1/GinScoreKeeper.dll
+/Users/mbeesley/code/gin-score-keeper/csharp_version/GinScoreKeeper/bin/Debug/netcoreapp3.1/GinScoreKeeper.pdb
+/Users/mbeesley/code/gin-score-keeper/csharp_version/GinScoreKeeper/obj/Debug/netcoreapp3.1/GinScoreKeeper.dll
+/Users/mbeesley/code/gin-score-keeper/csharp_version/GinScoreKeeper/obj/Debug/netcoreapp3.1/GinScoreKeeper.pdb
+/Users/mbeesley/code/gin-score-keeper/csharp_version/GinScoreKeeper/obj/Debug/netcoreapp3.1/GinScoreKeeper.genruntimeconfig.cache
+/Users/mbeesley/code/gin-score-keeper/csharp_version/GinScoreKeeper/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/mbeesley/code/gin-score-keeper/csharp_version/GinScoreKeeper/obj/Debug/netcoreapp3.1/GinScoreKeeper.csproj.CopyComplete

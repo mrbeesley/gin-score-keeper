@@ -13,16 +13,18 @@ func main() {
 	gm := controllers.NewGameManager()
 	input := ""
 	for {
-		msg := controllers.ManageGame(gm, input)
+		readOnly, msg := controllers.ManageGame(gm, input)
 		if msg == "break" {
 			break
 		}
 		fmt.Println(msg)
-		i, err := handleInput()
-		if err != nil {
-			break
-		} else {
-			input = i
+		if !readOnly {
+			i, err := handleInput()
+			if err != nil {
+				break
+			} else {
+				input = i
+			}
 		}
 	}
 }

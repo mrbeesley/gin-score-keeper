@@ -15,3 +15,8 @@ func NewPlayer(id int, name string) Player {
 		History: map[int]int{},
 	}
 }
+
+func (p *Player) AddScores(score, round int) {
+	p.History[round] = score
+	p.Score += score
+}
