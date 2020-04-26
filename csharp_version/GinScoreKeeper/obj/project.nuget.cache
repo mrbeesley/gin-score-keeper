@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "kSaF2JpGIUZdcHMpqpIlJkWf2hDaSMZU5azxcSbqXl+ltngab0k1MTFWxTynKWooBYkQTCzlLu0KVRlOmtd/6g==",
+  "dgSpecHash": "5pTk+xlgEJ/k0p0jQ14zrbLTsRIgH3bVxMztdVH+HHV3eU77vxWZa0fJfWwW/vAKMgwu5ucKk3ZgyyyFMJg6nw==",
   "success": true,
-  "projectFilePath": "/Users/mbeesley/code/gin-score-keeper/csharp_version/GinScoreKeeper/GinScoreKeeper.csproj",
+  "projectFilePath": "C:\\Code\\personal\\gin-score-keeper\\csharp_version\\GinScoreKeeper\\GinScoreKeeper.csproj",
   "expectedPackageFiles": [
-    "/Users/mbeesley/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\mbees\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }

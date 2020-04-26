@@ -20,7 +20,7 @@ namespace GinScoreKeeper.Controllers
         {
             var ret = new Game();
             ret.Players = players;
-            ret.Round = 0;
+            ret.Round = 1;
             ret.Id = _rand.Next(0, 100000);
             return ret;
         }

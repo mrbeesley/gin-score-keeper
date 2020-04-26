@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mbeesley/code/gin-score-keeper/csharp_version/GinScoreKeeper/GinScoreKeeper.csproj": {}
+    "C:\\Code\\personal\\gin-score-keeper\\csharp_version\\GinScoreKeeper\\GinScoreKeeper.csproj": {}
   },
   "projects": {
-    "/Users/mbeesley/code/gin-score-keeper/csharp_version/GinScoreKeeper/GinScoreKeeper.csproj": {
+    "C:\\Code\\personal\\gin-score-keeper\\csharp_version\\GinScoreKeeper\\GinScoreKeeper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mbeesley/code/gin-score-keeper/csharp_version/GinScoreKeeper/GinScoreKeeper.csproj",
+        "projectUniqueName": "C:\\Code\\personal\\gin-score-keeper\\csharp_version\\GinScoreKeeper\\GinScoreKeeper.csproj",
         "projectName": "GinScoreKeeper",
-        "projectPath": "/Users/mbeesley/code/gin-score-keeper/csharp_version/GinScoreKeeper/GinScoreKeeper.csproj",
-        "packagesPath": "/Users/mbeesley/.nuget/packages/",
-        "outputPath": "/Users/mbeesley/code/gin-score-keeper/csharp_version/GinScoreKeeper/obj/",
+        "projectPath": "C:\\Code\\personal\\gin-score-keeper\\csharp_version\\GinScoreKeeper\\GinScoreKeeper.csproj",
+        "packagesPath": "C:\\Users\\mbees\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\personal\\gin-score-keeper\\csharp_version\\GinScoreKeeper\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/mbeesley/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\mbees\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -56,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GinScoreKeeper", "GinScoreKeeper.csproj", "{0D618818-447D-4500-9261-15DD4CD9EC1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GinScoreKeeper", "GinScoreKeeper.csproj", "{0D618818-447D-4500-9261-15DD4CD9EC1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GinScoreKeeperTests", "..\GinScoreKeeperTests\GinScoreKeeperTests.csproj", "{B2CB06C6-4220-4644-9790-0C91B496EC3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,9 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0D618818-447D-4500-9261-15DD4CD9EC1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,5 +29,23 @@ Global
 		{0D618818-447D-4500-9261-15DD4CD9EC1F}.Release|x64.Build.0 = Release|Any CPU
 		{0D618818-447D-4500-9261-15DD4CD9EC1F}.Release|x86.ActiveCfg = Release|Any CPU
 		{0D618818-447D-4500-9261-15DD4CD9EC1F}.Release|x86.Build.0 = Release|Any CPU
+		{B2CB06C6-4220-4644-9790-0C91B496EC3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2CB06C6-4220-4644-9790-0C91B496EC3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2CB06C6-4220-4644-9790-0C91B496EC3E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B2CB06C6-4220-4644-9790-0C91B496EC3E}.Debug|x64.Build.0 = Debug|Any CPU
+		{B2CB06C6-4220-4644-9790-0C91B496EC3E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B2CB06C6-4220-4644-9790-0C91B496EC3E}.Debug|x86.Build.0 = Debug|Any CPU
+		{B2CB06C6-4220-4644-9790-0C91B496EC3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2CB06C6-4220-4644-9790-0C91B496EC3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2CB06C6-4220-4644-9790-0C91B496EC3E}.Release|x64.ActiveCfg = Release|Any CPU
+		{B2CB06C6-4220-4644-9790-0C91B496EC3E}.Release|x64.Build.0 = Release|Any CPU
+		{B2CB06C6-4220-4644-9790-0C91B496EC3E}.Release|x86.ActiveCfg = Release|Any CPU
+		{B2CB06C6-4220-4644-9790-0C91B496EC3E}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA310391-4CD5-47ED-A421-2A74812D520F}
 	EndGlobalSection
 EndGlobal
